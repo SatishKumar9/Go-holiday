@@ -177,7 +177,6 @@ if(!empty($_POST["fname"]) && $j==0) {
 				<a href="contact.html" class="fa fa-twitter"></a>
 				<a href="contact.html" class="fa fa-instagram"></a>
 				<a href="contact.html" class="fa fa-snapchat-ghost"></a>
-        		<h4>Copyright &#169 2017 Goholiday.com | All rights reserved. </h4>
   			</center>
   			<div style="float:right;font-family:'Allura';font-size:25px">Go  To  Top <a href="#1"><img src="https://cdn0.iconfinder.com/data/icons/flat-round-arrow-arrow-head/512/Red_Arrow_Top-2-512.png" height="30px" width="30px"></a></div>
   			 
