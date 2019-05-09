@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<title>ARINGAR ANNA ZOOLOGICAL PARK</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="../css/gallary.css">
+	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/button.css">
+	<link href='https://fonts.googleapis.com/css?family=Abhaya Libre' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Cormorant SC' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
+	<script src="../js/gallary.js"></script>
+	<body>
+
+	<!-- Sidebar -->
+		<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%">
+		   <h3 class="w3-bar-item">Places to visit</h3>
+  			<a href="pulicatlake.html" class="w3-bar-item w3-button">Pulicat Lake</a>
+  			<a href="kolihills.html" class="w3-bar-item w3-button">Koli Hills</a>
+  			<a href="marinabeach.html" class="w3-bar-item w3-button">Marina Beach</a>
+  			<a href="mahabalipuram.html" class="w3-bar-item w3-button">SHORE TEMPLE</a>
+  			<a href="zoochennai.html" style="background-color:#cccccc"class="w3-bar-item w3-button">Aringar Anna Zoological Park</a>
+		</div>
+
+		<!-- Page Content -->
+		<div style="margin-left:15%;font-family:'Abhaya Libre';">
+
+			<div class="w3-container w3-teal">
+			  <h1>ARINGAR ANNA ZOOLOGICAL PARK</h1>
+			</div>
+
+			<img src="pics/zm.jpg" alt="Aringar Anna Zoological Park" style="width:100%;">
+			<br><br>
+			<div class="w3-container">
+				<h2>Aringar Anna Zoological Park,CHENNAI Overview</h2>
+					<p>Perhaps one of the most popular picnic spots in Vandalur, Kanchipuram District, the Arignar Zoological Park is an amazing place to discover the flora and fauna of the region. A favourite weekend spot with both children and adults alike, the Arignar Zoo is situated at a distance of 32 kilometres from Chennai city. It is the largest zoo of its kind in South East Asia and is sprawled over an area of 1260 acres. In addition to having an extensive collection of endemic and exotic animals, visitors can experience the wild first hand with a trip to safari parks where lions and deer can be easily spotted.</p>
+
+				<h2>History of Aringar Anna Zoological Park</h2>
+					<p>The conception of the Arignar Anna Zoo happened in 1854 when Edward Green Balfour, the then director of the Government Central Museum at Madras, persuaded the Nawab of the Carnatic to donate his entire animal collection to the museum. The zoo was set up in the year 1855 and was the first public zoo established in India near the central railway station of Chennai. However, the constant increase in the number of visitors prompted a change in the zoo's location and in 1976 it was moved to Vandalur. Rigorous work was started in the year 1979 and finally on 24 July 1985, the zoo was opened up to the public. The park has drawn its name from the Tamil politician, Mr Arinagar Anna.  According to research, the park witnesses nearly 8,00,000 visitors in a year. The main objective of the park is to create awareness about the conservation of wildlife and try to put an end to the extinction of the endangered species. </p>
+		
+			<h2 style="text-align:center">Gallary</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="pics/z1.jpg" style="width:260px;height:200px;" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="pics/z2.jpg" style="width:260px;height:200px;" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="pics/z3.jpg" style="width:260px;height:200px;" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="pics/z4.jpg" style="width:260px;height:200px;" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column" style="display:none;">
+    <img src="pics/z5.jpg" style="width:260px;height:200px;" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="pics/z1.jpg" style="width:1200px;height:600px;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="pics/z2.jpg" style="width:1200px;height:600px;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="pics/z3.jpg" style="width:1200px;height:600px;">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="pics/z4.jpg" style="width:1200px;height:600px;">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+      <img src="pics/z5.jpg" style="width:1200px;height:600px;">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="pics/z1.jpg" style="width:260px;height:200px;" onclick="currentSlide(1)" alt="Aringar Anna Zoological Park">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pics/z2.jpg" style="width:260px;height:200px;" onclick="currentSlide(2)" alt="Aringar Anna Zoological Park">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pics/z3.jpg" style="width:260px;height:200px;" onclick="currentSlide(3)" alt="Aringar Anna Zoological Park">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pics/z4.jpg" style="width:260px;height:200px;" onclick="currentSlide(4)" alt="Aringar Anna Zoological Park">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pics/z5.jpg" style="width:260px;height:200px;" onclick="currentSlide(5)" alt="Aringar Anna Zoological Park">
+    </div>
+  </div>
+</div>
+
+			
+			
+			<h2>Exhibits at Arignar Anna Zoological Park</h2>
+				<p>The Arignar Anna Zoological Park is a safe house for a number of different animals, plants and insect species. Some of these include barking deer, blackbuck, sambar, sangai, nilgai, wolf, tiger, jaguar, hog deer, jackal, hyena, lion, giraffe, camel, otter, llama, elephant, Nilgiri langur, lion-tailed macaque, baboon, Hanuman langur and leaf-capped langur. Endangered and rare species such as Nilgiri macaques, monitor lizard, chimpanzees, European brown bear, Muscovy duck, giraffe, Bengal tiger, white tiger, lemur, macaque, vulture, and star tortoises are also included among the 46 such species here. In addition to the endemic animal species, exotic creatures such as emu and cassowary are also found here. In addition to these, many colourful butterflies thrive in the plantations here. </p>
+
+			<h2>Sections of Arignar Anna Zoological Park</h2>
+				<p>The Arignar Anna Zoological Park is divided into a different number of sections where you can inspect and learn more about the animals here in an easier way. They are as follows:-
+
+ </h3>Sanctuary aviaries</h3><br> There are two aviaries in the Arignar Anna Zoo which are built along the lines of bird sanctuaries in Tamil Nadu. The first one is the Point Calimere Aviary which represents a sanctuary on a bay on the Coromandel Coast while the other is Vedanthangal Sanctuary Aviary represents a sanctuary located in the district of Kanchipuram. Migratory birds such as flamingos, seagulls, teals, storks and herons can be spotted at Point Calimere all year round while Vedanthangal hosts white ibis, painted stork, night heron and grey heron.<br>
+
+
+				</p>
+				
+				<center><a href="https://www.google.co.in/maps/place/Arignar+Anna+Zoological+Park/@12.8793318,80.0797175,17z/data=!3m1!4b1!4m5!3m4!1s0x3a52f604b07fd4cd:0xb2f00bc9eb6c9c86!8m2!3d12.8793266!4d80.0819116?hl=en" target="_blank"><img src="pics/mapchzoo.jpg"class="img2" ></a></center>
+				<h2>How To Reach</h2>
+				<p>Since the zoological park is situated 32 km away from Chennai city, you can take a bus/cab up to the park.
+Vandalur is the nearest railway station which is situated 1 km away from the zoological park. You can easily take a cab further and reach the park.  </p>
+			<h2>Where to Stay</h2>	
+				<p>If you are planning to stay near the park, you can get a plush accomodation at The Leela Palace Chennai ,
+ITC Grand Chola A Luxury Collection Hotel ,Taj Coromandel.</p>
+			<h2>Tips</h2>
+				<p>1. It is advisable to not feed the animals in there or hurt them in any manner possible. This might lead to serious repercussions.</br>
+2. Smoking or bringing alcohol inside the park is not allowed.
+
+</p>
+		</div>
+
+			
+			
+			
+
+				
+		<a href="chennai.html"><button class="button" style="margin-right:20px;float:right;" ><span>Go back</span></button></a>
+		</div>
+
+		
+	</div>
+      
+</body>
+</html>
+

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<title>ARINGAR ANNA ZOOLOGICAL PARK</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="css/gallary.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Abhaya Libre' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Cormorant SC' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
+	<script src="js/gallary.js"></script>
+	<body>
+
+	<!-- Sidebar -->
+		<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%">
+		   <h3 class="w3-bar-item">Places to visit</h3>
+  			<a href="zoo.html" class="w3-bar-item w3-button">Aringar Anna</a>
+  			<a href="kollihills.html" class="w3-bar-item w3-button">Kolli Hills</a>
+  			<a href="marinabeach.html" class="w3-bar-item w3-button">Marina Beach</a>
+  			<a href="mahabalipuram.html" class="w3-bar-item w3-button">Mahabalipuram</a>
+  			<a href="zoochennai.html" class="w3-bar-item w3-button">Aringar Anna Zoological Park</a>
+		</div>
+
+		<!-- Page Content -->
+		<div style="margin-left:15%;font-family:'Abhaya Libre';">
+
+			<div class="w3-container w3-teal">
+			  <h1>PULICAT LAKE</h1>
+			</div>
+
+			<img src="pics/p1.jpg" alt="pulicat Lake" style="width:100%;">
+			<br><br>
+			<div class="w3-container">
+				<h2>Pulicat Lake,CHENNAI Overview</h2>
+					<p>Pulicat Lake formerly Palaverkaadu Eri is the second largest brackish water lake or lagoon in India, after Chilika Lake. It straddles the border of Andhra Pradesh and Tamil Nadu states with over 96% of it in Andhra Pradesh and 4% in Tamil Nadu situated on the Coromandal Coast in South India. The lake encompasses the Pulicat Lake Bird Sanctuary. The barrier island of Sriharikota separates the lake from the Bay of Bengal and is home to the Satish Dhawan Space Centre.</p>
+
+				<h2>History of Pulicat Lake</h2>
+					<p> In the 1st century, the anonymous mariner who wrote Periplus of the Erythraean Sea listed Podouke (Pulicat)as one of the three ports on the east coast of India. In the 2nd century, Ptolomey's list of ports on this coast included Podouke emporion.
+In the 13th century, Arabs migrated to the shores of the lake after they were banished from Mecca for refusing to pay tributes to a new calif. Streets with dilapidated masonry houses once occupied by these Arabian Muslims are still found in the area and resident families claim records in Arabic testifying the migration. Portuguese colonized the lake in 16th century followed by the Dutch. The Dutch drifted to the lagoon as their ships got stuck on the shores of Karimanal village on the opposite side of the mouth of the lake. During the Dutch occupation, Pulicat was known by the name Pallaicatta. Fort Geldria dating to 1609, a church, a cemetery with tombs and mausoleums constructed by the Dutch are protected by the Archaeological Survey of India (ASI). The Dutch transacted business with the British East India Company and other countries in the region.
+
+A scientific study of the palynological characteristics of the lagoon was conducted by taking sedimentary soil samples from four test pits. It shows that the vegetational reconstruction from peat beds at 4.98 metres (16.3 ft) a.m.s.l. and 1 metre (3.3 ft) (a.m.s.l.) in the west at Sullurpeta and Kasdredinilem, respectively, is indicative of a palaeoshoreline. The sea level reached its maximum around 6650 plus or minus 110 yrs BP in Sullurpeta, 18 kilometres (11 mi) west from the present shoreline. The radiocarbon dates of peat bed at Kasdreddinilem reveals an age of 4608 plus or minus 122 yrs BP, indicating the shift in mangrove line eastwards during the regressive phase.</p>
+		
+			
+			
+			
+			<h2>Best time to visit Pulicat Lake</h2>
+				<p>The best time to visit this destination is during the months of September- March, when the weather is pleasant.</p>
+
+			<h2>How to Reach Pulicat Lake</h2>
+				<p>The Tamil Nadu part of the lake is 60 kilometres (37 mi) north of Chennai and the nearest airport and major railway station are in Chennai. The nearest suburban railway station is at Ponneri. To reach Pulicat on the National Highway 5 from Chennai, drive north toward Nellore, after 30 kilometres (19 mi), turn right towards Ponneri village and continue 18 km (11.2 mi) to Pulicat village. Sullurpeta station is 17 kilometres (11 mi) from Sriharikota. The Buckingham Canal on the western side of the lagoon is the navigation route through the lake used by cargo and passenger vessels.
+				</p>
+				
+				<a href="https://www.google.co.in/maps/place/Pulicat+Lake/@13.7307179,79.9057901,10z/data=!3m1!4b1!4m5!3m4!1s0x3a4d9ca00b6b7437:0x112d5630394c8e76!8m2!3d13.5592628!4d80.2098219">GOOGLE MAPS</a>
+				
+			<h2>Where to Stay</h2>	
+				<p>If you are planning to stay near the Red Fort, you can get a plush accomodation at Bell hotel,SpiroguestInn,Maruvoor ArasiResort,HariPauanResort,Aqua Green Resort.</p>
+			<h2>Tips</h2>
+				<p>1. Videography is permitted. <br>
+
+</p>
+		</div>
+
+			
+			
+			
+
+				<h2 style="text-align:center">Gallary</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="pics/pu11.jpeg" style="width:260px;height:200px;" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="pics/pu7.jpeg" style="width:260px;height:200px;" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="pics/pu9.jpeg" style="width:260px;height:200px;" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="pics/pu3.jpeg" style="width:260px;height:200px;" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column" style="display:none;">
+    <img src="pics/pu10.jpg" style="width:260px;height:200px;" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="pics/pu11.jpeg" style="width:1200px;height:600px;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="pics/pu7.jpeg" style="width:1200px;height:600px;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="pics/pu9.jpeg" style="width:1200px;height:600px;">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="pics/pu3.jpeg" style="width:1200px;height:600px;">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+      <img src="pics/pu10.jpg" style="width:1200px;height:600px;">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="pics/pu11.jpeg" style="width:260px;height:200px;" onclick="currentSlide(1)" alt="PULICAT LAKE">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pics/pu7.jpeg" style="width:260px;height:200px;" onclick="currentSlide(2)" alt="PULICAT LAKE">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pics/pu9.jpeg" style="width:260px;height:200px;" onclick="currentSlide(3)" alt="PULICAT LAKE">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pics/pu3.jpeg" style="width:260px;height:200px;" onclick="currentSlide(4)" alt="PULICAT LAKE">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pics/pu10.jpg" style="width:260px;height:200px;" onclick="currentSlide(5)" alt="PULICAT LAKE">
+    </div>
+  </div>
+</div>
+
+		
+		</div>
+
+		
+	</div>
+      
+</body>
+</html>
+

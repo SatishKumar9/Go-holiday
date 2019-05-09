@@ -1,0 +1,119 @@
+#section1 {padding-top:50px;color: #fff;background-size:cover;background-attachment:fixed;background-image:url("../pics/taj2.jpg");}
+#section9 {height:700px;}
+#section41 {padding:50px;color: #fff; background-color:#378E6F;,height:150px;}
+#section2 {padding-top:50px;color: #fff; background-color:rgba(255,230,204,0.3);height:800px;}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:230px;
+    font-family:'Allura';
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+   
+}
+
+
+
+
+.container1 {
+	position : relative;
+	 text-align : center;
+	 color : white;
+}
+.centered {
+	position : absolute;
+	top:50%;
+	left : 50%;
+	font-size:35px;
+	font-family:'Allura';
+	 text-shadow: 4px 4px 4px #000000;
+	transform : translate(-50%,-50%);
+}
+
+h4 {color:}
+
+#myImg {
+    border-radius: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.85;
+    width:392px;
+    height:300px;
+    
+}
+
+#myImg1 {
+    border-radius: 14px;
+    height:300px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.85;
+    width:688px;
+}
+
+#myImg2 {
+    border-radius: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.85;
+    height:300px;
+    width:488px;
+}
+#myImg:hover {opacity: 1}
+
+#myImg1:hover {opacity: 1}
+
+#myImg2:hover {opacity: 1}
+
+
+
+
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  width:55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    text-decoration:none;
+    color:white;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+.fa-instagram {
+  background:#ff0080;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+
